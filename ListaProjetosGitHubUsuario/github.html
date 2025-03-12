@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos API GitHub</title>
+  <link rel="stylesheet" href="css/github.css">
+</head>
+<body>
+  <section class="projetos">
+    <h2>Projetos API GitHub</h2>
+    <div class="buscar-repositorio">
+      <input type="text" id="github-user" placeholder="Digite o nome de usuário do GitHub">
+      <button id="buscar-repos">Buscar Repositórios</button>
+    </div>
+    <div id="loading">Carregando repositórios...</div>
+    <section class="lista" id="lista-repositorios"></section>
+  </section>
+
+  <script src="js/github.js"></script>
+</body>
+</html>
